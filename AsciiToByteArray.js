@@ -3,6 +3,6 @@ function asciiToBytes(asciiString){
 }
 
 //example usage
-const asciiString = "Hello";
+const asciiString = "Lets Go!";
 const byteArray = asciiToBytes(asciiString);
 console.log(byteArray);
