@@ -1,5 +1,5 @@
 function asciiToBytes(asciiString){
-    return new Uint8Array([...asciiString.map(char => char.charCodeAt(0))]);
+    return new Uint8Array([...asciiString].map(char => char.charCodeAt(0)));
 }
 
 //example usage
